@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CFunctionalClass">
+    <Position X="8.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\Parts_Concrete\Abstract\FunctionalClass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CInit">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="CFunctionalClass" FixedToPoint="true">
+      <Path>
+        <Point X="9.5" Y="1.853" />
+        <Point X="9.5" Y="2.375" />
+        <Point X="5.312" Y="2.375" />
+        <Point X="5.312" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\Parts_Concrete\Abstract\Init.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPerform">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\Parts_Concrete\Abstract\Perform.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CParser">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\Parts_Concrete\Abstract\Parser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPureParser">
+    <Position X="2.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\Parts_Concrete\PureParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTemplateMethodBool">
+    <Position X="26.75" Y="1" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAgAABQABAAAAAgAAAAIAAIBAAIAEACI=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\TemplateMethodBool.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_pInit" />
+      <Field Name="_pPerform" />
+      <Field Name="_pCleanUp" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CPTInterpreter" Collapsed="true">
+    <Position X="6.5" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\Parts_Concrete\PackingTreeInterpreter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPackingTreeCompiler" Collapsed="true">
+    <Position X="24.5" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\PackingTreeCompiler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStackToTreeModulator">
+    <Position X="14" Y="14.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\Parts_Concrete\StackToTreeModulator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCleanUp" Collapsed="true">
+    <Position X="16.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\Parts_Concrete\Abstract\CleanUp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPackingTreePrinter" Collapsed="true">
+    <Position X="27.75" Y="7.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\PackingTreePrinter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPackingTreeTripper" Collapsed="true">
+    <Position X="10.75" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\Parts_Concrete\PackingTreeTripper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDeleteParser">
+    <Position X="5.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\Parts_Concrete\DeleteParser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDuplicantCleaner">
+    <Position X="14" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\Parts_Concrete\DuplicantCleaner.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CNode&lt;K, W&gt;">
+    <Position X="28.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgQAAAAAAABAAAAAAAAAAAAAgQAAAAAAgAABIAA=</HashCode>
+      <FileName>DataStructures\Node.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="parent" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CAppender" Collapsed="true">
+    <Position X="10.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\Parts_Concrete\Appender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPureInitAppender" Collapsed="true">
+    <Position X="0.75" Y="15" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\Parts_Concrete\PureInitAppender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CNewTreeCleanUp">
+    <Position X="19.5" Y="11" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\Parts_Concrete\NewTreeCleanUp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCompilerAddTree" Collapsed="true">
+    <Position X="31.25" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\Parts_Concrete\AppendToOldAndReturn.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDeleteParserAddTree" Collapsed="true">
+    <Position X="6" Y="15.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\Parts_Concrete\DeleteParserAddTree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPTInterpreterAddTree" Collapsed="true">
+    <Position X="7.5" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\Parts_Concrete\PackingTreeInterpreterHelp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStackToTreeAddTree" Collapsed="true">
+    <Position X="18.75" Y="14.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataStructures\Behaviours\Engines\Parts_Concrete\StackToTreeModulatorHelp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

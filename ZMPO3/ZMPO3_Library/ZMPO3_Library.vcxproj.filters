@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\Abstract\Utils\NUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\Abstract\CleanUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\Abstract\FunctionalClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\Abstract\Init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\Abstract\Parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\Abstract\Perform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\DeleteParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\TemplateMethodBool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\TreeChainParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\StackToTreeModulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\PackingTreeCompiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\PackingTreePrinter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\PackingTreeTripper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\DuplicantCleaner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\PureParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\Abstract\Utils\Tuple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\Abstract\Utils\ChainAndFilterPackage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\Appender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\PureInitAppender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\NewTreeCleanUp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\PackingTreeCompilerHelp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\TemplateMethodBoolHelp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\TemplateMethodBoolHelp2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\DuplicantCleanerFinal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\PackingTreeTripperFinal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\PureParserFinal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\DeleteParserAddTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\PTInterpreterAddTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\CompilerAddTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\PTInterpreter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructures\Behaviours\Engines\Parts_Concrete\StackToTreeAddTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructures\Behaviours\Engines\Parts_Concrete\Abstract\Utils\NUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
